@@ -1,7 +1,7 @@
 {
   "id": "couchdb",
-  "recipe": "couchdb-v1",
-  "version": "3.5.3.1",
+  "recipe": "couchdb-v2",
+  "version": "3.5.3.2",
   "publisher": "Lu Yifei",
   "help": "https://github.com/LuYifei-TOS-Apps/tos-couchdb#readme",
   "official": "https://couchdb.apache.org/",
@@ -13,21 +13,21 @@
       "auth": "Apache Software Foundation",
       "descript": "Store JSON documents on your NAS with the CouchDB HTTP API and Fauxton web console.",
       "important": "Access Fauxton and the API on port 15984. Follow the guide to retrieve the administrator password generated at first startup.",
-      "release_note": "Initial TOS release based on Apache CouchDB 3.5.3 in single-node mode."
+      "release_note": "Run directly as the database image's non-root user."
     },
     "zh-cn": {
       "name": "Apache CouchDB",
       "auth": "Apache Software Foundation",
       "descript": "在 NAS 上存储 JSON 文档，并通过 CouchDB HTTP API 或 Fauxton 网页管理。",
       "important": "Fauxton 和 API 使用 15984 端口。请按使用说明读取首次启动生成的管理口令。",
-      "release_note": "首个 TOS 版本，基于 Apache CouchDB 3.5.3 单节点模式。"
+      "release_note": "以数据库镜像的非 root 用户启动服务。"
     },
     "zh-hk": {
       "name": "Apache CouchDB",
       "auth": "Apache Software Foundation",
       "descript": "在 NAS 上儲存 JSON 文件，並透過 CouchDB HTTP API 或 Fauxton 網頁管理。",
       "important": "Fauxton 和 API 使用 15984 連接埠。請依照使用說明讀取首次啟動產生的管理密碼。",
-      "release_note": "首個 TOS 版本，基於 Apache CouchDB 3.5.3 單節點模式。"
+      "release_note": "以資料庫映像的非 root 使用者啟動服務。"
     }
   }
 }
